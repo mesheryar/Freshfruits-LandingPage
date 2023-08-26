@@ -1,0 +1,174 @@
+*{
+	margin: 0%;
+	padding: 0%;
+
+}
+.imgone img{
+	height: 60px;
+	width: 140px;
+	padding: 20px;
+	animation: animate 11s linear infinite;
+
+
+}
+@keyframes animate{
+	to{
+		transform: rotateY(360deg);
+	}
+}
+#slider button:hover{
+	color: yellow;
+	background-color: black;
+	
+}
+hr{
+ border: 2px solid black;
+}
+
+ul{
+	padding-top: 50px;
+}
+li a{
+	color: black;
+	text-decoration: none;
+}
+li{
+	display: inline;
+	font-size: 25px;
+	padding: 20px;
+}
+.all{
+	display: flex;
+	justify-content: space-around;
+}
+.btn1{
+	height: 30px;
+	width: 80px;
+	border-radius: 4px;
+
+}
+.btn2{
+	height: 30px;
+	width: 80px;
+	background-color: blue;
+	color: white;
+	border: none;
+	border-radius: 4px
+}
+.heading{
+	text-align: center;
+	background-image: url(./dryfruits.PNG);
+	height: 45vh;
+	width: 100%;
+
+	
+}
+.heading h1{
+	color: blue;
+	font-size: 45px;
+
+}
+.heading p{
+	color:red;
+	font-size: 25px
+}
+#slider2{
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+#slider2 button:hover{
+	background-color: black;
+	color: yellow;
+
+}
+.form{
+	height: 65vh;
+	width: 600px;
+	position: absolute;
+	background-color: white;
+	bottom: 200px;
+	border-radius: 5px;
+	box-shadow: 0 5px 5px gray;
+	outline: none;
+
+}
+form{
+	margin-top: 30px;
+	margin-left: 27px;
+
+}
+label{
+	font-size: 20px;
+	margin-top: 40px;
+
+}
+input{
+	border: none;
+	border-bottom: 1px solid black;
+	width: 510px;
+	outline: none;
+	height: 30px;
+	font-size: 25px;
+
+}
+.btn3{
+	background-color: blue;
+	height: 40px;
+	width: 80px;
+	border: none;
+	border-radius: 4px;
+	color: white;
+	margin-left: 80%;
+} 
+.imglast img{
+	height: 200px;
+	width: 300px;
+	margin-left: 20px
+}
+#slider3{
+	height: 250px;
+	width: 100%;
+	background-color: black;
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	line-height: 6vh
+}
+.last{
+	margin-top: 40px
+}
+#slider4{
+	position: relative;
+}
+#slider4 div{
+	height: 50px;
+	width: 250px;
+	background-color: white;
+	display: flex;
+	padding-top: 20px;
+	position: absolute;
+	right: 5px;
+	bottom:0px;
+	border-top-right-radius:  8px;
+	border-top-left-radius: 8px;
+
+}
+#slider4 img{
+	height: 40px;
+	width: 40px;
+	margin-left: 90px;
+
+}
+#slider4 h2{
+	margin-left: 20px
+}
+
+
+
+
+
+
+
